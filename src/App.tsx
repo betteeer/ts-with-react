@@ -1,5 +1,4 @@
 import React, { useState, useCallback, useEffect } from 'react'
-import './App.css';
 // import { Button } from 'antd'
 import styles from './App.scss'
 const Local_key = '_todo_'
@@ -31,10 +30,10 @@ const App:React.FC = ()=>{
   useEffect(()=> {
     localStorage.setItem(Local_key, JSON.stringify(todos))
   }, [todos])
-  
+  console.log(styles)
   return (
-    <div className={styles.todolist}>
-
+    <div className={styles.todoList}>
+      11111
     </div>  
   )
 }
