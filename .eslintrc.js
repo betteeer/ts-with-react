@@ -18,7 +18,11 @@ module.exports =  {
     // 自定义规则
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
-    // '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-use-before-define': 'off',
+    // "no-unused-vars": "off", // 这儿如果打开的情况下发现了未使用的变量则会在编译时有warning
+    // "@typescript-eslint/no-unused-vars": "off",
+    'react/display-name': 'off',
   },
   settings:  {
     react:  {

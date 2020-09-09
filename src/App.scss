@@ -1,6 +1,26 @@
-// :local(.todoList) {
-//   background-color: #F00;
-// }
+
 :local(.todoList) {
-  background-color: #F00;
+  // background-color: #F00;
+  width: 100%;
+  margin: 20px auto;
+  :local(.inputContainer) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  :local(.contentList) {
+    margin-top: 20px;
+    padding-left: 35%;
+    width: 50%;
+    :local(.item) {
+      margin-bottom: 5px;
+      label {
+        margin: 0 6px;
+      }
+      :local(.complete) {
+        text-decoration: line-through;
+      }
+    }
+  }
 }
