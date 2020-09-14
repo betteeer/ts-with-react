@@ -1,7 +1,9 @@
 import React from 'react'
+import { DimensionDemo } from './test/useDimensionsTest'
 
 
 function Heading() {
-  return <h1>Heading</h1>
+  console.log(111111)
+  return <DimensionDemo />
 }
 export default Heading

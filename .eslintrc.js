@@ -23,6 +23,7 @@ module.exports =  {
     // "no-unused-vars": "off", // 这儿如果打开的情况下发现了未使用的变量则会在编译时有warning
     // "@typescript-eslint/no-unused-vars": "off",
     'react/display-name': 'off',
+    "react/prop-types": "off"
   },
   settings:  {
     react:  {
