@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import useDimensions from '../hooks/useDimensions';
+import useDimensions from '../hooks/useDimensions/index';
 
 const MeasuredNode = ()=> {
   const [ref, dimensions] = useDimensions({ liveMeasure: true})
